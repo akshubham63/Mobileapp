@@ -1,0 +1,124 @@
+*{
+	padding : 0;
+	margin : 0;
+	box-sizing : border-box;
+}
+
+.text-center{
+	text-align : center;
+}
+
+.text-right{
+	text-align : right;
+}
+
+.mt-40{
+	margin-top:40px;
+}
+
+.container {
+	width : 1100px;
+	margin : 0 auto;
+}
+
+.row,
+.row::after,
+.row::before{
+	width : 100%;
+	display : table;
+	clear : both;
+}
+
+[class^="col-"]{
+	float : left;
+	padding : 0 15px;
+}
+
+.col-1{
+	width : calc(100% * 1 / 12);
+}
+
+.col-2{
+	width : calc(100% * 2 / 12);
+}
+
+.col-3{
+	width : calc(100% * 3 / 12);
+}
+
+.col-4{
+	width : calc(100% * 4 / 12);
+}
+
+.col-5{
+	width : calc(100% * 5 / 12);
+}
+
+.col-6{
+	width : calc(100% * 6 / 12);
+}
+
+.col-7{
+	width : calc(100% * 7 / 12);
+}
+
+.col-8{
+	width : calc(100% * 8 / 12);
+}
+
+.col-9{
+	width : calc(100% * 9 / 12);
+}
+
+.col-10{
+	width : calc(100% * 10 / 12);
+}
+
+.col-11{
+	width : calc(100% * 11 / 12);
+}
+
+.col-12{
+	width : calc(100% * 12 / 12);
+}
+
+.navbar ul li,
+.logo,
+.app-icon a,
+.features-icon,
+.chocalate-info a,
+.footer-link ul li,
+.side-bar,
+.footer-link li a
+{
+	display:inline-block;
+}
+
+.col-offset-1{
+		margin-left:calc(100% * 1 / 12);
+}
+
+.col-offset-2{
+		margin-left:calc(100% * 2 / 12);
+}
+
+.pri-heading{
+	font-size:50px;
+	text-transform:uppercase;
+	margin-bottom:55px;
+}
+
+.sec-heading{
+	font-size:36px;
+	font-weight:400;
+	margin-bottom:50px;
+}
+
+.sec-para{
+	font-size:24px;
+	font-weight:300;
+	margin-bottom:70px;
+	line-height:1.5;
+
+}
+

@@ -1,0 +1,248 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*.........................................heroImg section css..........................................*/
+
+.heroImg{
+	padding:50px 0 65px;
+	background-image:linear-gradient(rgb(218, 51, 45,0.6),rgb(218, 51, 45,0.6)),url('../images/bg-1.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+	overflow:hidden; /*Overflow image of the ipad get hidden*/
+}
+
+.header >:first-child{
+	margin-bottom:100px;
+}
+
+.logo img,
+.features-icon img,
+.media-logo img{
+	width:100%;
+}
+
+.navbar li a{
+	text-decoration:none;
+	padding:20px 10px;
+	margin-left:20px;
+	text-transform:uppercase;
+	height:60px;
+	line-height:60px;
+	color:#ffffff;
+	position:relative;
+}
+
+.navbar li a::after{
+	content:'';
+	width:0%;
+	height:5px;
+	background-color:#ffffff;
+	position:absolute;
+	left:0;
+	bottom:0;
+	transition:all 0.8s ease-in-out;
+}
+
+.navbar li a:hover::after,
+.navbar li a:active::after,
+.navbar li a:focus::after{
+	width:100%;
+}
+
+.ipad{
+	position:relative; /*Use for the ipad to get above that section and get overflow*/
+}
+
+.ipad img{
+	position:absolute;  /*To correctly position the ipad*/
+	right:0;
+	top:0;
+}
+
+.app-icon a{
+	background-color:#282828;
+	color:#ffffff;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:18px;
+	padding:15px 35px;
+	border-radius:45px;
+}
+
+.app-icon a i{
+	font-size:30px;
+	margin-right:25px;
+}
+
+.header-info h1{
+	color:#ffffff;
+}
+
+.header-info h2{
+	color:#ffffff;
+}
+
+/*.........................................feature section css..........................................*/
+
+.features{
+	padding:85px 0 105px;
+}
+
+.features-info h1{
+	color:#8a8a8a;
+}
+
+.features-info h3{
+	color:#3a3a3a;
+}
+
+.features-icon{
+	width:180px;
+	margin-bottom:40px;
+}
+
+.thumbnail-heading{
+	color:#1a1a1a;
+	margin-bottom:40px;
+	text-transform:uppercase;
+}
+
+.thumbnail-para{
+	color:#7b7b7b;
+	margin:0 20px;
+	font-weight:300;
+}
+
+/*.........................................middle section css..........................................*/
+
+.middle{
+	padding:198px 0 170px;
+	background-image:url('../images/bg-2.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+.chocalate-info .pri-heading span{
+	color:#f55150;
+}
+
+.chocalate-info .sec-para{
+	color:#585858;
+}
+
+.chocalate-info a{
+	text-decoration:none;
+	text-transform:uppercase;
+	background-color:#d9332d;
+	color:#ffffff;
+	padding:20px;
+	border-radius:45px;
+}
+
+.chocalate-info a:hover,
+.chocalate-info a:active,
+.chocalate-info a:focus{
+	background-color:#A9A9A9;
+}
+
+/*.........................................media section css..........................................*/
+
+.media{
+	padding:120px 0 150px;
+	background-color:#2e2e38;
+}
+
+.media .container >:first-child{
+	margin-bottom:65px;
+}
+
+.media-info .row{
+	margin-bottom:25px;
+}
+
+.media-logo img{
+	width:215px;
+}
+
+.media-heading{
+	font-size:19px;
+	margin-bottom:30px;
+	color:#ffffff;
+}
+
+.media-icon{
+	width:52px;
+	height:41px;
+	background-color:#e74c3c;
+}
+
+.para-info{
+	font-size:15px;
+	color:#ffffff;
+	margin-top:3px;
+}
+
+.media-text ul li{
+	list-style:none;
+	color:#ffffff;
+}
+
+.media-text ul >:first-child,
+.media-text ul >:last-child,
+.media-text ul >:nth-child(3){
+	font-size:14px;
+	padding:15px 0;
+}
+
+.media-text ul >:nth-child(2){
+	font-size:11px;
+}
+
+.about p{
+	font-size:15px;
+	color:#ffffff;
+	line-height:1.5;
+	font-style:italic;
+}
+
+
+/*.........................................footer section css..........................................*/
+
+.footer{
+	padding:40px 0;
+	background-color:#d7dedc;
+}
+
+.side-bar{
+	margin:0 25px;
+	border-right:2px solid #747877;
+	height:23px;
+}
+
+.footer-link ul >:first-child,
+.footer-link ul >:nth-child(2){
+	font-size:25px;
+	color:#181919;
+}
+
+.footer-link li a i{
+	font-size:25px;
+	margin-right:20px;
+}
+
+.footer-link ul >:last-child a i{
+	color:#a6e8ea;
+}
+
+.footer-link ul >:nth-child(4) a i{
+	color:#4762a1;
+}
+
+.footer-link ul >:nth-child(5) a i{
+	color:#d93879;
+}
