@@ -147,8 +147,9 @@ body{
 .chocalate-info a:hover,
 .chocalate-info a:active,
 .chocalate-info a:focus{
-	background-color:#f55150;
-	color:#ffffff;
+	background-color:#ffffff;
+	color:#f55150;
+	transition:all 0.6s ease-in-out;
 }
 
 /*.........................................media section css..........................................*/
