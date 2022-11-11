@@ -147,7 +147,8 @@ body{
 .chocalate-info a:hover,
 .chocalate-info a:active,
 .chocalate-info a:focus{
-	background-color:#A9A9A9;
+	background-color:#f55150;
+	color:#ffffff;
 }
 
 /*.........................................media section css..........................................*/
